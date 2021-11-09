@@ -13,6 +13,6 @@
                 ,"command": {"phrases": ["time","date", "weather","play","joke","typing type","open","directory","computer vision"],
                             "responses":[""]}
                 ,"websites": ["facebook.com","twitter.com","web.whatsapp.com","youtube.com","stackoverflow.com","wikipedia.org","instagram.com","yahoo.com","amazon.com","amazon.in","speedcudeshop.com","cubelelo.com","apple.com","microsoft.com","bestbuy.com","maps.google.com"]
-                ,"computerVision": ["security","gesture","virtual control","Documentscanner"]
+                ,"computerVision": ["security","gesture","virtual control","tracking"]
 }
 }

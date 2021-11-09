@@ -155,7 +155,7 @@ def type():
     speak('starting typing be ready')
     sleep(2)
     for i in data:
-        pyautogui.write(i,interval=0.01)
+        pyautogui.write(i.strip(),interval=0.01)
 # def about(tag,command):
 #     if tag == 'about':
 #         print('running about')

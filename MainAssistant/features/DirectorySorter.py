@@ -7,7 +7,7 @@
 import os
 from pathlib import Path
 import shutil
-import MainAssistant.main as main
+import main
 def Main():
     main.speak("Enter directory path : ")
     path = input("enter path: ")
