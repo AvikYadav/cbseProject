@@ -2,7 +2,10 @@ import threading
 
 import keyboard
 import time
-from MainAssistant import main
+try:
+    from MainAssistant import main
+except:
+    import main
 import subprocess as s
 
 
