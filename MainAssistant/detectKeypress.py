@@ -11,8 +11,6 @@ hotkey = "shift + alt"
 Killhotkey = "ctrl + alt"
 def killProcess(pid):
     s.Popen('taskkill /F /PID {0}'.format(pid), shell=True)
-def openRecognition():
-    from computervisionfaceRecoginition import FaceRecoginitationAttendence
 def kill():
     while True:
         if keyboard.is_pressed(Killhotkey):
@@ -22,8 +20,6 @@ def kill():
 # Remember that the order in which the hotkey is set up is the order you
 # need to press the keys.
 x = threading.Thread(target = kill)
-x.start()
-x = threading.Thread(target = openRecognition)
 x.start()
 while True:
     # if main.kill:

@@ -283,6 +283,11 @@ def commands(command,ind):
             from ComputerVisionVirtualMouse import VirtualMouse
         # elif instructions['General']['computerVision'][3] in str(command).lower():
         #     from doucument import main
+        elif instructions['General']['computerVision'][3] in str(command).lower():
+            from computervisionfaceRecoginition import FaceRecoginitationAttendence
+        # elif instructions['General']['computerVision'][3] in str(command).lower():
+        #     from doucument import main
+
         else:
             speak("could not get that in a moment , try again later")
 
