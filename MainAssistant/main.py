@@ -148,7 +148,7 @@ def greet():
 def type():
     speak('you may start speaking now')
     speak('enter for how long would you like to type')
-    from MainAssistant.features import getAudiotoSpeech
+    from features import getAudiotoSpeech
 
     with open('Data/TypeData.txt','r') as file:
         data = file.readlines()
@@ -267,7 +267,7 @@ def commands(command,ind):
         pywhatkit.playonyt(command)
         speak("Playing")
     elif instructions['General']['command']['phrases'][ind] == 'directory':
-        from MainAssistant.features import DirectorySorter
+        from features import DirectorySorter
         DirectorySorter.Main()
     elif instructions['General']['command']['phrases'][ind] == 'computer vision':
         speak('features available are')
@@ -276,7 +276,7 @@ def commands(command,ind):
         speak("Which feature you want to start")
         command = microphone()
         if instructions['General']['computerVision'][0] in command:
-            from MainAssistant.features import securityCam
+            from features import securityCam
         elif instructions['General']['computerVision'][1] in command:
             from ComputerVisionGestures import VolumeHandControlImproved
         elif instructions['General']['computerVision'][2] in str(command).lower():
