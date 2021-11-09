@@ -1,0 +1,9 @@
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.1.0/en_core_web_md-3.1.0-py3-none-any.whl
+
+
+pyinstaller @ https://github.com/pyinstaller/pyinstaller/archive/develop.zip
+pyinstaller-hooks-contrib==2021.3
+
+
+PyAudio @ file:///D:/pycharmProjects/AiVirtualBot/PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
+
