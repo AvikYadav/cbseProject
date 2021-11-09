@@ -1,0 +1,2 @@
+class StopPlayAlarmThred(Exception):
+    pass

@@ -1,0 +1,18 @@
+{"General":{
+                 "greetings":
+                {"phrases":["GreetingsData.txt"],
+                     "responses":["thanks,i am fine, what can i do for you"]}
+                ,"personal":
+                    {"phrases":["your name", "your age", "how old are you", "who made you","how are you","who are you","your gender"],
+                    "responses":["jarvis","i am 1 minute old","i am 14","i am created by avik","i am nice","i am your personal assistant","female"]}
+                ,"feedback":
+                    {"phrases":["you are"],
+                     "responses":["you can give feedback to Avik"]}
+                ,"search": {"phrases": ["what","how","who","when","why","which","whose","whom","can"],
+                            "responses":[""]}
+                ,"command": {"phrases": ["time","date", "weather","play","joke","typing type","open","directory","computer vision"],
+                            "responses":[""]}
+                ,"websites": ["facebook.com","twitter.com","web.whatsapp.com","youtube.com","stackoverflow.com","wikipedia.org","instagram.com","yahoo.com","amazon.com","amazon.in","speedcudeshop.com","cubelelo.com","apple.com","microsoft.com","bestbuy.com","maps.google.com"]
+                ,"computerVision": ["security","gesture","virtual control","Documentscanner"]
+}
+}
