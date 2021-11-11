@@ -9,7 +9,7 @@ except:
 import subprocess as s
 
 
-
+print("started")
 hotkey = "shift + alt"
 Killhotkey = "ctrl + alt"
 def killProcess(pid):
